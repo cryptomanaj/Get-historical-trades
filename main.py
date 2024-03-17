@@ -12,6 +12,7 @@ By default, each file contains 1m transactions, but for any reason if you want t
 can change the range of tqdm function in the main loop, each loop contains 1k trasnactions (The Biannce's
 limit).
 The saved files will be in the following format:
+The saved files will be in the following format:
 f"/HistoricalTrades_{symbol}_{startId}____{endId}.pkl"
 """
 
