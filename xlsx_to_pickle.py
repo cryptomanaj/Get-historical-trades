@@ -1,7 +1,7 @@
 from posixpath import split
 import pandas as pd
 import pickle
-import os
+import os  
 # This script gets a folder as path and changes each xlsx file in the folder to 
 # a pickle object and saves it in the same folder. this is done so to increase the
 # speed of loading of the file in other scripts 
