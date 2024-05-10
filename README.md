@@ -4,7 +4,7 @@ can change the range of tqdm function in the main loop, each  loop contains 1k t
 limit).
 The saved files will be in the following format:
 f"/HistoricalTrades_{symbol}_{startId}____{endId}.pkl"
-
+ 
 --------- 
 TODO: The backward data gathering direction works fine, but complete the forward data gathering as well
 TODO: The patching process has to be implemented. Some times the downloadad files has discontinuities, 
